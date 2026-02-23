@@ -1,0 +1,77 @@
+
+@keyframes backgroun {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+@keyframes words {
+    from {color: black;}
+    to {color: white;}
+}
+
+.front{
+    max-width: auto;
+    max-height: 1500px;
+    display: block;
+}
+
+.animation-background{
+    background-color: black;
+    animation-name: backgroun;
+    animation-duration: 5s;
+}
+.animation-words{
+    animation-name: words;
+    animation-duration: 5s;
+    color: white;
+}
+.color{
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+    list-style-type: none;
+}
+
+
+.maury{
+    animation-name: words;
+    animation-duration: 5s;
+    color: white;
+     height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18%;
+    margin: auto;
+    font-size: 3rem;
+    transition: all 0.1s ease; /* smooth font change */
+
+}
+.softwaredev{
+    animation-name: words;
+    animation-duration: 5s;
+    color: white;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34%;
+    margin: auto;
+    transition: all 0.1s ease; /* smooth font change */
+}
+#button{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    /*position:static;*/
+    border: red solid 5px;
+    color: red;
+    background-color: black;
+}
+
+html{
+    height: 2000px;
+}
+
+

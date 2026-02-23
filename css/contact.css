@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+}
+
+.contactform{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+
+
+#wrapper {
+    width: 64em;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
+}
