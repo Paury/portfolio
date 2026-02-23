@@ -43,7 +43,7 @@ const fonts = [
 let interval = setInterval(() => {
   const randomFont = fonts[Math.floor(Math.random() * fonts.length)];
   heading.style.fontFamily = randomFont;
-}, 200);
+}, 100);
 
 setTimeout(() => {
   clearInterval(interval);
