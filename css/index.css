@@ -1,5 +1,5 @@
 
-@keyframes backgroun {
+/* @keyframes backgroun {
     from {background-color: white;}
     to {background-color: black;}
 }
@@ -7,11 +7,11 @@
 @keyframes words {
     from {color: black;}
     to {color: white;}
-}
+} */
 
 .front{
     max-width: auto;
-    max-height: 1500px;
+   
     display: block;
 }
 
@@ -56,7 +56,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 34%;
+   padding-bottom: 7%;
     margin: auto;
     transition: all 0.1s ease; /* smooth font change */
 }
@@ -70,8 +70,6 @@
     background-color: black;
 }
 
-html{
-    height: 2000px;
-}
+
 
 
