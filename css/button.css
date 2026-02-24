@@ -1,4 +1,11 @@
-
+#button-contact{
+    background-color: black;
+    font-size: 10px;
+    height: 10px;
+}
+#button-contact  :hover{
+    
+}
 .shadow-button-set {
   margin: 0;
   display: flex;

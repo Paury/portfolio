@@ -1,8 +1,12 @@
-body{
-    background-color: blue;
+html, main{
+    background-color: black;
 }
-
+label, .text{
+    color: white;
+    text-align: center;
+}
 .contactform{
+    padding-top: 20px;
     display: flex;
     text-align: center;
     justify-content: center;

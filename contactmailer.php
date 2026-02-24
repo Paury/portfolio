@@ -94,9 +94,22 @@ $mail->Body ="<h2>Nieuw contactformulier bericht</h2>
 if (!$mail->send()) {
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo '<div id="success-message" style="padding:10px; background-color: #d4edda; color: #155724; border-radius:5px;">
-            Message successfully sent! Je wordt zo teruggebracht naar de homepage...
-          </div>
+    echo '<body style="padding-top: 17%;
+ background-image: url(img/ok.gif);
+ background-repeat:repeat;">
+    <div style="
+        background-color: green;
+        width: 500px;
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+        height: 200px;
+       
+                ">
+        <h1 style="padding-top: 70px;">Dankjewel voor je bericht!</h1>
+        <p>Het bericht is Succesvol doorgestuurd</p>
+    </div>
+</body>
           <script>
             // Wacht 5 seconden, redirect dan naar index.html
             setTimeout(function() {

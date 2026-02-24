@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: opacity 0.4s ease;
+}
+
+.page2 {
+  background: #111;
+  color: white;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page1 {
+  background: #f4f4f4;
+}
+
+.page.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* 🎬 Video */
+.slide-video {
+  position: fixed;
+  bottom: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 200;
+}
+
+/* 🟥 Red wipe */
+.wipe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: white;
+  z-index: 1500;
+  transition: width 0.8s ease-in;
+}
