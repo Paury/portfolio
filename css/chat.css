@@ -22,9 +22,7 @@ body {
   pointer-events: none;
 }
 
-.page1 {
-  background: #f4f4f4;
-}
+
 
 .page.active {
   opacity: 1;
