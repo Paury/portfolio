@@ -83,7 +83,7 @@
     <form class="contactform" action="contactmailer.php" method="POST">
         <div class="mb-3">
                 <label for="" class="form-label">Naam</label>
-                <input
+                <input  
                     type="text"
                     class="form-control"
                     name="naam"
